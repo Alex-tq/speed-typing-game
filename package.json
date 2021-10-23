@@ -10,7 +10,7 @@
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0"
   },
-  "homepage": "alex-tq.github.io/speed-typing-game",
+  "homepage": "https://alex-tq.github.io/speed-typing-game",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
