@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/alex-tq.github.io/speed-typing-game/static/css/main.8f6c2cdd.chunk.css",
+    "main.js": "/alex-tq.github.io/speed-typing-game/static/js/main.b8111906.chunk.js",
+    "main.js.map": "/alex-tq.github.io/speed-typing-game/static/js/main.b8111906.chunk.js.map",
+    "runtime-main.js": "/alex-tq.github.io/speed-typing-game/static/js/runtime-main.7b405255.js",
+    "runtime-main.js.map": "/alex-tq.github.io/speed-typing-game/static/js/runtime-main.7b405255.js.map",
+    "static/js/2.ee688ba6.chunk.js": "/alex-tq.github.io/speed-typing-game/static/js/2.ee688ba6.chunk.js",
+    "static/js/2.ee688ba6.chunk.js.map": "/alex-tq.github.io/speed-typing-game/static/js/2.ee688ba6.chunk.js.map",
+    "index.html": "/alex-tq.github.io/speed-typing-game/index.html",
+    "precache-manifest.f95f14c4955f9f85e323179884e739ae.js": "/alex-tq.github.io/speed-typing-game/precache-manifest.f95f14c4955f9f85e323179884e739ae.js",
+    "service-worker.js": "/alex-tq.github.io/speed-typing-game/service-worker.js",
+    "static/css/main.8f6c2cdd.chunk.css.map": "/alex-tq.github.io/speed-typing-game/static/css/main.8f6c2cdd.chunk.css.map",
+    "static/js/2.ee688ba6.chunk.js.LICENSE.txt": "/alex-tq.github.io/speed-typing-game/static/js/2.ee688ba6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7b405255.js",
+    "static/js/2.ee688ba6.chunk.js",
+    "static/css/main.8f6c2cdd.chunk.css",
+    "static/js/main.b8111906.chunk.js"
+  ]
+}
