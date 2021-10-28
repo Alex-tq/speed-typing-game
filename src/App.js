@@ -1,17 +1,24 @@
 import React, {useState, useEffect, useRef} from "react"
 
 function App() {
-    const STARTING_TIME = 30;
+    
     
     const [text, setText] = useState("")
-    const [timeRemaining, setTimeRemaining] = useState(STARTING_TIME)
+    const [startingTime, setStartingTime] = useState(30)
+    const [timeRemaining, setTimeRemaining] = useState(startingTime)
     const [isTimeRunning, setIsTimeRunning] = useState(false)
     const [wordCount, setWordCount] = useState(0)
     const textBoxRef = useRef(null)
+    const startingTimeRef = useRef(null)
+    
     
     function handleChange(e) {
         const {value} = e.target
         setText(value)
+    }
+    function handleStartTimeInput(e){
+        const {value} = e.target
+        setStartingTime(value)
     }
     
     function calculateWordCount(text) {
@@ -21,10 +28,11 @@ function App() {
     
     function startGame() {
         setIsTimeRunning(true)
-        setTimeRemaining(STARTING_TIME)
+        setTimeRemaining(startingTime)
         setText("")
         textBoxRef.current.disabled = false
         textBoxRef.current.focus()
+        //startingTimeRef.current.styles = {display: 'none'}
     }
     
     function endGame() {
@@ -51,7 +59,9 @@ function App() {
                 value={text}
                 disabled={!isTimeRunning}
             />
-            <h4>Time remaining: {timeRemaining}</h4>
+            {isTimeRunning
+                ? <h4>{`Time Remaining: ${timeRemaining}`}</h4>
+                :<h4><input type='number' placeholder='Starting Time' value={startingTime} onChange={handleStartTimeInput} ref={startingTimeRef}></input></h4>}
             <button 
                 onClick={startGame}
                 disabled={isTimeRunning}
