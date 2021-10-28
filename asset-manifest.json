@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/speed-typing-game/static/css/main.8f6c2cdd.chunk.css",
-    "main.js": "/speed-typing-game/static/js/main.b8111906.chunk.js",
-    "main.js.map": "/speed-typing-game/static/js/main.b8111906.chunk.js.map",
+    "main.js": "/speed-typing-game/static/js/main.f43c10fe.chunk.js",
+    "main.js.map": "/speed-typing-game/static/js/main.f43c10fe.chunk.js.map",
     "runtime-main.js": "/speed-typing-game/static/js/runtime-main.b87734b0.js",
     "runtime-main.js.map": "/speed-typing-game/static/js/runtime-main.b87734b0.js.map",
     "static/js/2.ee688ba6.chunk.js": "/speed-typing-game/static/js/2.ee688ba6.chunk.js",
     "static/js/2.ee688ba6.chunk.js.map": "/speed-typing-game/static/js/2.ee688ba6.chunk.js.map",
     "index.html": "/speed-typing-game/index.html",
-    "precache-manifest.0e5438df1971fd0162cf1b13e8841d16.js": "/speed-typing-game/precache-manifest.0e5438df1971fd0162cf1b13e8841d16.js",
+    "precache-manifest.88adb5fd6433d2f03f1627c22cbaa9f8.js": "/speed-typing-game/precache-manifest.88adb5fd6433d2f03f1627c22cbaa9f8.js",
     "service-worker.js": "/speed-typing-game/service-worker.js",
     "static/css/main.8f6c2cdd.chunk.css.map": "/speed-typing-game/static/css/main.8f6c2cdd.chunk.css.map",
     "static/js/2.ee688ba6.chunk.js.LICENSE.txt": "/speed-typing-game/static/js/2.ee688ba6.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b87734b0.js",
     "static/js/2.ee688ba6.chunk.js",
     "static/css/main.8f6c2cdd.chunk.css",
-    "static/js/main.b8111906.chunk.js"
+    "static/js/main.f43c10fe.chunk.js"
   ]
 }
